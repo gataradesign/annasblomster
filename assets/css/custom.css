@@ -1,0 +1,196 @@
+/**** GENERAL ****/
+
+body{
+    font-size: 18px;
+    background: url('../img/tile.png') top left repeat;
+}
+
+
+/**** GLOBAL ****/
+
+h1,h2,h3,h4,h5,h6{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 3em;
+    font-family: 'Marck Script', cursive;
+}
+
+h1,h2{
+    margin: 0 0 40px;
+}
+
+
+
+/**** LAYOUT ****/
+
+section{
+    padding: 80px 0;
+}
+
+.section-header{
+    text-align: center;
+}
+
+.row + .row {
+    margin-top: 20px;
+}
+
+img{
+    width: 100%;
+}
+
+/**** TOP BACKGROUND ****/
+
+#top-background{
+    background: url('../img/flowers-top-background.jpg') repeat fixed;
+    min-height: 500px;
+    color: black; 
+    padding: 20px 0;
+}
+
+
+/**** Custom Nav ****/
+
+#nav-main{
+    width:90%;
+    min-height: 80px;
+    background-color: black;
+    margin: 0 auto;
+    left:0px;
+    right:0px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: rgb(255 255, 255); 
+    background: rgba(255, 255, 255, .8);
+    padding: 0 20px;
+    
+    
+}
+
+.nav, .navbar-brand{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #000;
+}
+
+
+.navbar-nav > li > a{
+    background-color: transparent !important;
+    color: #000;
+    margin-top: 14px;
+    font-size: 0.9em;
+    margin-right: 4px;
+}
+
+ul.nav a{ 
+    color: #000 !important; 
+    width: 80%;
+}
+
+ul.nav a:hover{ 
+    color: #FFB6C1 !important; 
+}
+
+.navbar-default{
+    color: #fff;
+    background-color: transparent !important;
+}
+
+.navbar-brand{
+    font-size: 2.5em;
+    font-family: 'Marck Script', cursive;
+    color: #000 !important;
+    margin-top: 16px;
+}
+
+.navbar-brand:hover{
+    color: #FFB6C1 !important;
+    cursor: pointer;
+}
+
+/**** ABOUT ****/
+
+#about{
+    background-color: #fff;
+}
+
+/**** PARNTENRS ****/
+
+#partners{
+    text-align: center;
+    background-color: #fff;
+    
+}
+
+#partners img{
+    height: 80px;
+    width: auto;
+}
+
+#partners h4{
+    margin: 40px 0;
+    font-size: 1em;
+}
+
+
+/**** KONTAKT ****/
+
+#contact{
+    background: url('../img/contact-background.jpg');
+}
+
+.custom-contact{
+    padding: 40px;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: rgb(255 255, 255); 
+    background: rgba(255, 255, 255, .8);
+}
+
+/**** FORMS ****/
+
+input[type="text"], 
+input[type="email"], 
+textarea{
+    color: #666;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6px 12px;
+}
+
+/**** FOOTER ****/
+
+#nav-footer{
+    padding: 20px 0 10px;
+}
+
+footer{
+    background: #000;
+    font-size: 12px;
+    color: #fff;
+}
+
+footer a, footer a:hover{
+    color: #fff;
+}
+
+footer h1{
+    font-size: 2em;
+    margin: 16px 0;
+    color: #fff;
+}
